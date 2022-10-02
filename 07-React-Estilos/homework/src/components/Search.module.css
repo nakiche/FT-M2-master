@@ -1,0 +1,19 @@
+.contenedor{
+text-align: left;
+display: flex;
+background-color: #1a1a00;
+width: fit-content;
+padding: 3px ;
+}
+
+.contenedor button {
+	background-color: #1a1a00;
+	color: #009933;
+	border-radius: 5px ;
+	border-color: #009933;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	width: 30%;
+}

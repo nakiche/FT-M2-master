@@ -1,0 +1,39 @@
+.tarjeta {
+	border:  0.1px solid #DCDCDC;
+	width:  25%;
+	border-radius: 	10px;
+	
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.tarjeta h1 {
+    font-size: 1.5rem;
+}
+
+.tarjeta h2 {
+    font-size: 1.3rem;
+}
+
+.tarjeta h3 {
+    font-size: 1rem;
+}
+
+.tarjeta  button {
+	background-color: #cc0000;
+	color: white;
+	border-radius: 5px ;
+	border-color: #cc0000;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.boton {
+	text-align: right;
+	/*align-self: flex-end;*/
+}

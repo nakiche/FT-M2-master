@@ -1,12 +1,16 @@
 import React from 'react';
 import Card from './Card.jsx';
+import s from  './Cards.module.css';
+
 export default function Cards({cities}) {
   // acá va tu código
   // tip, podés usar un map
+  console.log('esto es s:', s);
   return (
   
-      
-        cities.map(ciudad => 
+      <div className={s.contenedor}>
+        {
+          cities.map(ciudad => 
           <Card 
            max={ciudad.main.temp_max}
            min={ciudad.main.temp_min}
@@ -15,8 +19,9 @@ export default function Cards({cities}) {
            onClose={() => alert(ciudad.name)}
 
           />
-        )         
-
+        )  
+        }       
+      </div>
 
     ) 
 };
